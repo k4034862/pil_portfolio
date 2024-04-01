@@ -1,0 +1,48 @@
+/* styles.css */
+
+/* Body와 HTML 엘리먼트는 화면 전체를 채우도록 설정합니다. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* 컨테이너 엘리먼트는 화면 전체를 채우도록 설정합니다. */
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 탑바 */
+.topbar {
+  height: 50px; /* 높이 설정 */
+  background-color: #333; /* 배경색 */
+  color: #fff; /* 글자색 */
+  text-align: center; /* 텍스트 가운데 정렬 */
+  line-height: 50px; /* 수직 가운데 정렬 */
+}
+
+/* 사이드바 */
+.sidebar {
+  flex: 0 0 200px; /* 가로 크기 설정 */
+  background-color: #f4f4f4; /* 배경색 */
+  padding: 10px; /* 안쪽 여백 */
+}
+
+/* 컨텐츠 영역 */
+.content {
+  flex: 1; /* 남은 공간 모두 차지 */
+  background-color: #ddd; /* 배경색 */
+  padding: 20px; /* 안쪽 여백 */
+}
+
+/* 하단바 */
+.footer {
+  height: 50px; /* 높이 설정 */
+  background-color: #333; /* 배경색 */
+  color: #fff; /* 글자색 */
+  text-align: center; /* 텍스트 가운데 정렬 */
+  line-height: 50px; /* 수직 가운데 정렬 */
+}
