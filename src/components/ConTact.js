@@ -19,15 +19,15 @@ const logoStyle = {
   height: "auto",
 };
 
-function Copyright() {
-  return (
-    <Typography variant="body2" color="text.secondary" mt={1}>
-      {"Copyright © "}
-      <Link href="https://mui.com/">Sitemark&nbsp;</Link>
-      {new Date().getFullYear()}
-    </Typography>
-  );
-}
+// function Copyright() {
+//   return (
+//     <Typography variant="body2" color="text.secondary" mt={1}>
+//       {"Copyright © "}
+//       <Link href="https://mui.com/">Sitemark&nbsp;</Link>
+//       {new Date().getFullYear()}
+//     </Typography>
+//   );
+// }
 
 export default function Contact() {
   return (
@@ -50,66 +50,83 @@ export default function Contact() {
           justifyContent: "space-between",
         }}
       >
-        <Box
-          sx={{
-            display: "flex",
-            flexDirection: "column",
-            gap: 4,
-            minWidth: { xs: "100%", sm: "60%" },
-          }}
-        >
-          <Box sx={{ width: { xs: "100%", sm: "60%" } }}>
-            <Box sx={{ ml: "-15px" }}>
-              <img
-                src={
-                  "https://assets-global.website-files.com/61ed56ae9da9fd7e0ef0a967/61f12e6faf73568658154dae_SitemarkDefault.svg"
-                }
-                style={logoStyle}
-                alt="logo of sitemark"
-              />
-            </Box>
-            {/* <Typography variant="body2" fontWeight={600} gutterBottom>
+        <Box sx={{ width: { xs: "100%", sm: "60%" } }}>
+          {/* <Box sx={{}}>
+            <img
+              src={"../PIL_PORTFOLIO.png"}
+              style={logoStyle}
+              alt="logo of pil"
+              width="20"
+              height="10"
+            />
+          </Box> */}
+          {/* <Typography variant="body2" fontWeight={600} gutterBottom>
               Newsletter
             </Typography>
             <Typography variant="body2" color="text.secondary" mb={2}>
               Subscribe to our newsletter for weekly updates and promotions.
             </Typography> */}
+          <Box sx={{ display: "flex", flexDirection: "column" }}>
             <TextField
               id="outlined-basic"
               hiddenLabel
               size="small"
               variant="outlined"
-              sx={{ marginBottom: "3px" }}
+              sx={{ marginBottom: "8px", width: "100px" }}
               fullWidth
-              aria-label="Enter your email address"
-              placeholder="Your email address"
+              placeholder="성함"
               inputProps={{
                 autocomplete: "off",
-                ariaLabel: "Enter your email address",
               }}
             />
-            <Stack direction="row" spacing={1} useFlexGap>
-              <TextField
-                id="outlined-basic"
-                hiddenLabel
-                size="small"
-                variant="outlined"
-                fullWidth
-                aria-label="Enter your email address"
-                placeholder="Your email address"
-                inputProps={{
-                  autocomplete: "off",
-                  ariaLabel: "Enter your email address",
-                }}
-              />
-              <Button
-                variant="contained"
-                color="primary"
-                sx={{ flexShrink: 0 }}
-              >
-                Subscribe
-              </Button>
-            </Stack>
+            <TextField
+              id="outlined-basic"
+              hiddenLabel
+              size="small"
+              variant="outlined"
+              sx={{ marginBottom: "8px", width: "100px" }}
+              fullWidth
+              placeholder="회신받을 Email"
+              inputProps={{
+                autocomplete: "off",
+              }}
+            />
+            <TextField
+              id="outlined-basic"
+              hiddenLabel
+              size="small"
+              variant="outlined"
+              sx={{ marginBottom: "8px", width: "100px" }}
+              fullWidth
+              placeholder="제목"
+              inputProps={{
+                autocomplete: "off",
+              }}
+            />
+            <TextField
+              id="outlined-basic"
+              hiddenLabel
+              size="small"
+              multiline
+              rows={6}
+              variant="outlined"
+              sx={{ marginBottom: "8px", width: "100px" }}
+              fullWidth
+              placeholder="내용"
+              inputProps={{
+                autocomplete: "off",
+              }}
+            />
+            <Button
+              variant="contained"
+              color="primary"
+              sx={{
+                marginBottom: "8px",
+                width: "120px",
+              }}
+            >
+              메일 보내기
+            </Button>
           </Box>
         </Box>
         <Box
@@ -129,46 +146,6 @@ export default function Contact() {
             <EmailIcon></EmailIcon> k4034862@naver.com
           </Typography>
         </Box>
-        {/* <Box
-          sx={{
-            display: { xs: "none", sm: "flex" },
-            flexDirection: "column",
-            gap: 1,
-          }}
-        >
-          <Typography variant="body2" fontWeight={600}>
-            Company
-          </Typography>
-          <Link color="text.secondary" href="#">
-            About us
-          </Link>
-          <Link color="text.secondary" href="#">
-            Careers
-          </Link>
-          <Link color="text.secondary" href="#">
-            Press
-          </Link>
-        </Box> */}
-        {/* <Box
-          sx={{
-            display: { xs: "none", sm: "flex" },
-            flexDirection: "column",
-            gap: 1,
-          }}
-        >
-          <Typography variant="body2" fontWeight={600}>
-            Legal
-          </Typography>
-          <Link color="text.secondary" href="#">
-            Terms
-          </Link>
-          <Link color="text.secondary" href="#">
-            Privacy
-          </Link>
-          <Link color="text.secondary" href="#">
-            Contact
-          </Link>
-        </Box> */}
       </Box>
       <Box
         sx={{
@@ -181,7 +158,7 @@ export default function Contact() {
         }}
       >
         <div>
-          <Link color="text.secondary" href="#">
+          {/* <Link color="text.secondary" href="#">
             Privacy Policy
           </Link>
           <Typography display="inline" sx={{ mx: 0.5, opacity: 0.5 }}>
@@ -190,7 +167,7 @@ export default function Contact() {
           <Link color="text.secondary" href="#">
             Terms of Service
           </Link>
-          <Copyright />
+          <Copyright /> */}
         </div>
         <Stack
           direction="row"

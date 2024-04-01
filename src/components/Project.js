@@ -178,9 +178,9 @@ export default function Project() {
           PROJECT
         </Typography>
         <Typography variant="body1" color="text.secondary">
-          See what our customers love about our products. Discover how we excel
-          in efficiency, durability, and satisfaction. Join us for quality,
-          innovation, and reliable support.
+          주로 프로젝트에 개발을 담당하였고 MES , WERP , IOT , 통신프로그램 등을
+          개발하였습니다.
+          <br />
         </Typography>
       </Box>
       <Grid container spacing={2}>

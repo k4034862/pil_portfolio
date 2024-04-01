@@ -42,24 +42,13 @@ export default function Home() {
               textAlign: "center",
             }}
           >
-            Our latest&nbsp;
-            <Typography
-              component="span"
-              variant="h1"
-              sx={{
-                color: (theme) =>
-                  theme.palette.mode === "light"
-                    ? "primary.main"
-                    : "primary.light",
-              }}
-            >
-              products
+            <Typography component="span" variant="h1">
+              Home
             </Typography>
           </Typography>
           <Typography variant="body1" textAlign="center" color="text.secondary">
-            Explore our cutting-edge dashboard, delivering high-quality
-            solutions tailored to your needs. <br />
-            Elevate your experience with top-tier features and services.
+            안녕하세요. 반갑습니다. 저는 김동필입니다. <br />웹 개발 , 하드웨어
+            , 통신을 다룬 경험이 있습니다.
           </Typography>
           {/* <Stack
             direction={{ xs: "column", sm: "row" }}
