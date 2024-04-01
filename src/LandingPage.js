@@ -8,13 +8,13 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 import ToggleButton from "@mui/material/ToggleButton";
 import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
 import AutoAwesomeRoundedIcon from "@mui/icons-material/AutoAwesomeRounded";
-import AppAppBar from "./components/AppAppBar";
-import Hero from "./components/Hero";
+import AppBar from "./components/AppBar";
+import Home from "./components/Home";
 import LogoCollection from "./components/LogoCollection";
-import Highlights from "./components/Highlights";
+import Education from "./components/Education";
 import Pricing from "./components/Pricing";
-import Features from "./components/Features";
-import Testimonials from "./components/Testimonials";
+import Skill from "./components/Skill";
+import Project from "./components/Project";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
 import getLPTheme from "./getLPTheme";
@@ -78,21 +78,21 @@ export default function LandingPage() {
   return (
     <ThemeProvider theme={showCustomTheme ? LPtheme : defaultTheme}>
       <CssBaseline />
-      <AppAppBar mode={mode} toggleColorMode={toggleColorMode} />
-      <Hero />
+      <AppBar mode={mode} toggleColorMode={toggleColorMode} />
+      <Home />
       <Box sx={{ bgcolor: "background.default" }}>
         {/* <LogoCollection /> */}
-        <Features />
+        <Skill />
         <Divider />
-        <Testimonials />
+        <Project />
         <Divider />
-        <Highlights />
+        <Education />
         <Divider />
         {/* <Pricing /> */}
         {/* <Divider /> */}
         {/* <FAQ /> */}
         {/* <Divider /> */}
-        {/* <Footer /> */}
+        <Footer />
       </Box>
       {/* <ToggleCustomTheme
         showCustomTheme={showCustomTheme}
