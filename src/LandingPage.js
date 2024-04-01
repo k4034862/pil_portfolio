@@ -16,7 +16,7 @@ import Pricing from "./components/Pricing";
 import Skill from "./components/Skill";
 import Project from "./components/Project";
 import FAQ from "./components/FAQ";
-import Footer from "./components/Footer";
+import Contact from "./components/ConTact";
 import getLPTheme from "./getLPTheme";
 
 function ToggleCustomTheme({ showCustomTheme, toggleCustomTheme }) {
@@ -92,7 +92,7 @@ export default function LandingPage() {
         {/* <Divider /> */}
         {/* <FAQ /> */}
         {/* <Divider /> */}
-        <Footer />
+        <Contact />
       </Box>
       {/* <ToggleCustomTheme
         showCustomTheme={showCustomTheme}

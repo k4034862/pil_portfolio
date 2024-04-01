@@ -7,7 +7,7 @@ function HtmlCss() {
       <div className="topbar">Topbar</div>
       <div className="sidebar">Sidebar</div>
       <div className="content">Content</div>
-      <div className="footer">Footer</div>
+      <div className="Contact">Contact</div>
     </div>
   );
 }
