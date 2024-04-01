@@ -8,6 +8,7 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import { useTheme } from "@mui/system";
+import Link from "@mui/material/Link";
 const userTestimonials = [
   {
     avatar: (
@@ -17,7 +18,8 @@ const userTestimonials = [
     testimonial:
       "내용 : \n " +
       "참여기간: (2020.6 -2021.9)3개월\n" +
-      "담당 업무: 하드웨어 개발 및 설계 , MES 개발 ",
+      "담당 업무: 하드웨어 개발 및 설계 , MES 개발   ",
+    link: "https://example.com",
   },
   {
     avatar: (
@@ -112,7 +114,7 @@ const userTestimonials = [
     testimonial:
       "내용 : \n " +
       "참여기간: (2023.09 ~2024.02)6개월\n" +
-      "담당 업무: 프로젝트 관리,일정관리, MES(WEB)개발",
+      "담당 업무: 프로젝트 관리,일정관리, MES(WEB)개발 ",
   },
   {
     avatar: (
@@ -202,6 +204,13 @@ export default function Project() {
                       <Typography variant="body2" color="text.secondary">
                         {line}
                       </Typography>
+                      <Link
+                        href={testimonial.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Example Link
+                      </Link>
 
                       <br />
                     </div>
