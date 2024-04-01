@@ -16,18 +16,18 @@ import HardwareIcon from "@mui/icons-material/Hardware";
 const items = [
   {
     icon: <WebIcon />,
-    title: "교육/경력 사항",
+    title: "FRONT",
     description:
-      "This item could provide a snapshot of the most important metrics or data points related to the product.",
+      "프로젝트 진행중 사용하였던 Front 개발에 대해 정리 해보았습니다.",
     imageLight:
       'url("/static/images/templates/templates-images/dash-light.png")',
     imageDark: 'url("/static/images/templates/templates-images/dash-dark.png")',
   },
   {
     icon: <HardwareIcon />,
-    title: "자격증",
+    title: "BACKEND",
     description:
-      "This item could provide information about the mobile app version of the product.",
+      "프로젝트 진행중 사용하였던 BackEnd 개발에 대해 정리 해보았습니다. ",
     imageLight:
       'url("/static/images/templates/templates-images/mobile-light.png")',
     imageDark:
@@ -35,9 +35,8 @@ const items = [
   },
   {
     icon: <DevicesRoundedIcon />,
-    title: "사용언어",
-    description:
-      "This item could let users know the product is available on all platforms, such as web, mobile, and desktop.",
+    title: "DATABASE",
+    description: "프로젝트 진행중 사용하였던 DataBase에 대해 정리 해았습니다.",
     imageLight:
       'url("/static/images/templates/templates-images/devices-light.png")',
     imageDark:
@@ -60,7 +59,7 @@ export default function Skill() {
         <Grid item xs={12} md={6}>
           <div>
             <Typography component="h2" variant="h4" color="text.primary">
-              INTRO
+              SKILL
             </Typography>
             <Typography
               variant="body1"

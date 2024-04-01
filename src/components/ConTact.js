@@ -11,7 +11,9 @@ import Typography from "@mui/material/Typography";
 import FacebookIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/X";
-
+import PhoneIcon from "@mui/icons-material/Phone";
+import EmailIcon from "@mui/icons-material/Email";
+import HomeIcon from "@mui/icons-material/Home";
 const logoStyle = {
   width: "140px",
   height: "auto",
@@ -66,12 +68,26 @@ export default function Contact() {
                 alt="logo of sitemark"
               />
             </Box>
-            <Typography variant="body2" fontWeight={600} gutterBottom>
+            {/* <Typography variant="body2" fontWeight={600} gutterBottom>
               Newsletter
             </Typography>
             <Typography variant="body2" color="text.secondary" mb={2}>
               Subscribe to our newsletter for weekly updates and promotions.
-            </Typography>
+            </Typography> */}
+            <TextField
+              id="outlined-basic"
+              hiddenLabel
+              size="small"
+              variant="outlined"
+              sx={{ marginBottom: "3px" }}
+              fullWidth
+              aria-label="Enter your email address"
+              placeholder="Your email address"
+              inputProps={{
+                autocomplete: "off",
+                ariaLabel: "Enter your email address",
+              }}
+            />
             <Stack direction="row" spacing={1} useFlexGap>
               <TextField
                 id="outlined-basic"
@@ -100,29 +116,20 @@ export default function Contact() {
           sx={{
             display: { xs: "none", sm: "flex" },
             flexDirection: "column",
-            gap: 1,
+            gap: 4,
           }}
         >
           <Typography variant="body2" fontWeight={600}>
-            Product
+            <PhoneIcon></PhoneIcon> 010-4114-8117
           </Typography>
-          <Link color="text.secondary" href="#">
-            Skill
-          </Link>
-          <Link color="text.secondary" href="#">
-            Project
-          </Link>
-          <Link color="text.secondary" href="#">
-            Education
-          </Link>
-          <Link color="text.secondary" href="#">
-            Pricing
-          </Link>
-          <Link color="text.secondary" href="#">
-            FAQs
-          </Link>
+          <Typography variant="body2" fontWeight={600}>
+            <HomeIcon></HomeIcon> 부산광역시 중구 대영로 240
+          </Typography>
+          <Typography variant="body2" fontWeight={600}>
+            <EmailIcon></EmailIcon> k4034862@naver.com
+          </Typography>
         </Box>
-        <Box
+        {/* <Box
           sx={{
             display: { xs: "none", sm: "flex" },
             flexDirection: "column",
@@ -141,8 +148,8 @@ export default function Contact() {
           <Link color="text.secondary" href="#">
             Press
           </Link>
-        </Box>
-        <Box
+        </Box> */}
+        {/* <Box
           sx={{
             display: { xs: "none", sm: "flex" },
             flexDirection: "column",
@@ -161,7 +168,7 @@ export default function Contact() {
           <Link color="text.secondary" href="#">
             Contact
           </Link>
-        </Box>
+        </Box> */}
       </Box>
       <Box
         sx={{
