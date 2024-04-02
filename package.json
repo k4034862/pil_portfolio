@@ -2,6 +2,7 @@
   "name": "css_practice",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://k4034862.github.io/pil_portfolio",
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.0",
