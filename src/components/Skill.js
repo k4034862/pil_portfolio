@@ -10,37 +10,49 @@ import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import ChevronRightRoundedIcon from "@mui/icons-material/ChevronRightRounded";
 import DevicesRoundedIcon from "@mui/icons-material/DevicesRounded";
-import EdgesensorHighRoundedIcon from "@mui/icons-material/EdgesensorHighRounded";
 import WebIcon from "@mui/icons-material/Web";
 import HardwareIcon from "@mui/icons-material/Hardware";
+import AutoAwesomeMosaicIcon from "@mui/icons-material/AutoAwesomeMosaic";
+import GroupsIcon from "@mui/icons-material/Groups";
+import CloudDoneIcon from "@mui/icons-material/CloudDone";
 const items = [
   {
     icon: <WebIcon />,
     title: "FRONT",
-    description:
-      "프로젝트 진행중 사용하였던 Front 개발에 대해 정리 해보았습니다.",
-    imageLight:
-      'url("/static/images/templates/templates-images/dash-light.png")',
-    imageDark: 'url("/static/images/templates/templates-images/dash-dark.png")',
-  },
-  {
-    icon: <HardwareIcon />,
-    title: "BACKEND",
-    description:
-      "프로젝트 진행중 사용하였던 BackEnd 개발에 대해 정리 해보았습니다. ",
-    imageLight:
-      'url("/static/images/templates/templates-images/mobile-light.png")',
-    imageDark:
-      'url("/static/images/templates/templates-images/mobile-dark.png")',
+    // description:
+    imageLight: `url(/front_image.png)`,
+    imageDark: `url(/front_image.png)`,
   },
   {
     icon: <DevicesRoundedIcon />,
+    title: "BACKEND",
+    // description:
+    imageLight: `url(/backend_image.png)`,
+    imageDark: `url(/backend_image.png)`,
+  },
+  {
+    icon: <CloudDoneIcon />,
     title: "DATABASE",
-    description: "프로젝트 진행중 사용하였던 DataBase에 대해 정리 해았습니다.",
-    imageLight:
-      'url("/static/images/templates/templates-images/devices-light.png")',
-    imageDark:
-      'url("/static/images/templates/templates-images/devices-dark.png")',
+    imageLight: `url(/db_image.png)`,
+    imageDark: `url(/db_image.png)`,
+  },
+  {
+    icon: <AutoAwesomeMosaicIcon />,
+    title: "Tools",
+    imageLight: `url(/tools_image.png)`,
+    imageDark: `url(/tools_image.png)`,
+  },
+  {
+    icon: <GroupsIcon />,
+    title: "Collaborations",
+    imageLight: `url(/collaborations_image.png)`,
+    imageDark: `url(/collaborations_image.png)`,
+  },
+  {
+    icon: <HardwareIcon />,
+    title: "Hardware",
+    imageLight: `url(/hardware_image.png)`,
+    imageDark: `url(/hardware_image.png)`,
   },
 ];
 
@@ -271,9 +283,11 @@ export default function Skill() {
             <Box
               sx={{
                 m: "auto",
-                width: 420,
-                height: 500,
-                backgroundSize: "contain",
+                width: "100%",
+                height: "100%",
+                backgroundSize: "contain", // 이미지를 요소에 맞게 설정
+                backgroundRepeat: "no-repeat", // 이미지 반복 없음
+                backgroundPosition: "center", // 이미지를 중앙에 정렬
                 backgroundImage: (theme) =>
                   theme.palette.mode === "light"
                     ? items[selectedItemIndex].imageLight

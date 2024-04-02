@@ -16,10 +16,10 @@ const userTestimonials = [
     ),
     name: "태일 스마트 팩토리 ",
     testimonial:
-      "내용 : \n " +
-      "참여기간: (2020.6 -2021.9)3개월\n" +
+      "내용 : MES 시스템 및 하드웨어 개발 \n " +
+      "참여기간: (2020.6 -2020.9)3개월\n" +
       "담당 업무: 하드웨어 개발 및 설계 , MES 개발   ",
-    link: "https://example.com",
+    link: "/project/tail_project.pdf",
   },
   {
     avatar: (
@@ -27,9 +27,10 @@ const userTestimonials = [
     ),
     name: "신흥 스마트 팩토리",
     testimonial:
-      "내용 : \n " +
-      "참여기간: (2020.6 -2021.9)3개월\n" +
+      "내용 :MES 시스템 및 하드웨어 개발  \n " +
+      "참여기간: (2020.6 -2020.9)3개월\n" +
       "담당 업무: 하드웨어 개발 및 설계 , MES 개발 ",
+    link: "/project/sinhung_project.pdf",
   },
   {
     avatar: (
@@ -40,9 +41,10 @@ const userTestimonials = [
     ),
     name: "구봉에스테크 스마트 팩토리",
     testimonial:
-      "내용 : \n " +
+      "내용 : 하드웨어 개발 \n " +
       "참여기간: (2020.08 -2020.10)2개월\n" +
       "담당 업무: 하드웨어 개발 및 설계 ",
+    link: "/project/gubong_project.pdf",
   },
   {
     avatar: (
@@ -50,9 +52,10 @@ const userTestimonials = [
     ),
     name: "대건금속 스마트 팩토리",
     testimonial:
-      "내용 : \n " +
+      "내용 : MES 시스템 및 하드웨어 개발 \n " +
       "참여기간: (2020.10 -2021.06)9개월\n" +
       "담당 업무: 하드웨어 개발 및 설계 , MES 개발",
+    link: "/project/daegun_project.pdf",
   },
   {
     avatar: (
@@ -63,17 +66,19 @@ const userTestimonials = [
     ),
     name: "대경코리아 스마트 팩토리",
     testimonial:
-      "내용 : \n " +
-      "참여기간: (200.11 -2010.10)1년 \n" +
+      "내용 : MES 시스템 및 하드웨어 개발 \n " +
+      "참여기간: (2020.11 -2021.10)1년 \n" +
       "담당 업무: 하드웨어 개발 및 설계 , MES 개발 및 유지보수",
+    link: "/project/daeg_project.pdf",
   },
   {
     avatar: <Avatar alt="대력 IOT펌웨어" src="/static/images/avatar/6.jpg" />,
     name: "대력 IOT펌웨어",
     testimonial:
-      "내용 : \n " +
-      "참여기간: (2021.04 - 2021.06)3개월\n" +
+      "내용 : 하드웨어 개발 \n " +
+      "참여기간: (2021.04 - 2021.07)3개월\n" +
       "담당 업무: 하드웨어 개발 및 설계 ",
+    link: "/project/dr_project.pdf",
   },
   {
     avatar: (
@@ -81,9 +86,10 @@ const userTestimonials = [
     ),
     name: "바이탈린 IOT펌웨어",
     testimonial:
-      "내용 : \n " +
-      "참여기간: (2021.03 - 2021.06)4개월\n" +
+      "내용 : 하드웨어 개발 \n " +
+      "참여기간: (2021.03 - 2021.06)3개월\n" +
       "담당 업무: 하드웨어 개발 및 설계 ",
+    link: "/project/by_project.pdf",
   },
   {
     avatar: (
@@ -94,9 +100,10 @@ const userTestimonials = [
     ),
     name: "우리마트(통합물류 시스템)",
     testimonial:
-      "내용 : \n " +
-      "참여기간: (2021.11 ~ )2년 3개월\n" +
+      "내용 : WERP 시스템 개발 \n " +
+      "참여기간: (2021.11 ~ 2024.01)2년 2개월\n" +
       "담당 업무: WERP 개발(WEB) ,유지보수 ",
+    link: "/project/woori_project.pdf",
   },
   {
     avatar: (
@@ -104,17 +111,19 @@ const userTestimonials = [
     ),
     name: "메디폴 스마트 팩토리",
     testimonial:
-      "내용 : \n " +
-      "참여기간: (2023.07 ~2023.08)2개월\n" +
+      "내용 : MES 시스템 개발 \n " +
+      "참여기간: (2023.07 ~2023.09)2개월\n" +
       "담당 업무: MES(WEB) 개발 ",
+    link: "/project/medipol_project.pdf",
   },
   {
     avatar: <Avatar alt="동성사 MES	" src="/static/images/avatar/6.jpg" />,
     name: "동성사 MES",
     testimonial:
-      "내용 : \n " +
+      "내용 : MES 시스템 개발 \n " +
       "참여기간: (2023.09 ~2024.02)6개월\n" +
       "담당 업무: 프로젝트 관리,일정관리, MES(WEB)개발 ",
+    link: "/project/dongsung_project.pdf",
   },
   {
     avatar: (
@@ -122,9 +131,10 @@ const userTestimonials = [
     ),
     name: "성홍 스마트 팩토리",
     testimonial:
-      "내용 : \n " +
+      "내용 : MES 시스템 개발 \n " +
       "참여기간: (2023.02 ~2024.07)5개월\n" +
       "담당 업무: MES(WEB) 개발 ",
+    link: "/project/sunghong_project.pdf",
   },
 ];
 
@@ -204,18 +214,18 @@ export default function Project() {
                       <Typography variant="body2" color="text.secondary">
                         {line}
                       </Typography>
-                      <Link
-                        href={testimonial.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Example Link
-                      </Link>
 
                       <br />
                     </div>
                   );
                 })}
+                <Link
+                  href={testimonial.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  자세히 보기
+                </Link>
               </CardContent>
               <Box
                 sx={{
