@@ -20,39 +20,39 @@ const items = [
     icon: <WebIcon />,
     title: "FRONT",
     // description:
-    imageLight: `url(/front_image.png)`,
-    imageDark: `url(/front_image.png)`,
+    imageLight: `url(${process.env.PUBLIC_URL}/front_image.png)`,
+    imageDark: `url(${process.env.PUBLIC_URL}/front_image.png)`,
   },
   {
     icon: <DevicesRoundedIcon />,
     title: "BACKEND",
     // description:
-    imageLight: `url(/backend_image.png)`,
-    imageDark: `url(/backend_image.png)`,
+    imageLight: `url(${process.env.PUBLIC_URL}/backend_image.png)`,
+    imageDark: `url(${process.env.PUBLIC_URL}/backend_image.png)`,
   },
   {
     icon: <CloudDoneIcon />,
     title: "DATABASE",
-    imageLight: `url(/db_image.png)`,
-    imageDark: `url(/db_image.png)`,
+    imageLight: `url(${process.env.PUBLIC_URL}/db_image.png)`,
+    imageDark: `url(${process.env.PUBLIC_URL}/db_image.png)`,
   },
   {
     icon: <AutoAwesomeMosaicIcon />,
     title: "Tools",
-    imageLight: `url(/tools_image.png)`,
-    imageDark: `url(/tools_image.png)`,
+    imageLight: `url(${process.env.PUBLIC_URL}/tools_image.png)`,
+    imageDark: `url(${process.env.PUBLIC_URL}/tools_image.png)`,
   },
   {
     icon: <GroupsIcon />,
     title: "Collaborations",
-    imageLight: `url(/collaborations_image.png)`,
-    imageDark: `url(/collaborations_image.png)`,
+    imageLight: `url(${process.env.PUBLIC_URL}/collaborations_image.png)`,
+    imageDark: `url(${process.env.PUBLIC_URL}/collaborations_image.png)`,
   },
   {
     icon: <HardwareIcon />,
     title: "Hardware",
-    imageLight: `url(/hardware_image.png)`,
-    imageDark: `url(/hardware_image.png)`,
+    imageLight: `url(${process.env.PUBLIC_URL}/hardware_image.png)`,
+    imageDark: `url(${process.env.PUBLIC_URL}/hardware_image.png)`,
   },
 ];
 
@@ -288,6 +288,7 @@ export default function Skill() {
                 backgroundSize: "contain", // 이미지를 요소에 맞게 설정
                 backgroundRepeat: "no-repeat", // 이미지 반복 없음
                 backgroundPosition: "center", // 이미지를 중앙에 정렬
+
                 backgroundImage: (theme) =>
                   theme.palette.mode === "light"
                     ? items[selectedItemIndex].imageLight
