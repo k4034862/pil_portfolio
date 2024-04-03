@@ -76,7 +76,7 @@ export default function Contact() {
               fullWidth
               placeholder="성함"
               inputProps={{
-                autocomplete: "off",
+                autoComplete: "off",
               }}
             />
             <TextField
@@ -88,7 +88,7 @@ export default function Contact() {
               fullWidth
               placeholder="회신받을 Email"
               inputProps={{
-                autocomplete: "off",
+                autoComplete: "off",
               }}
             />
             <TextField
@@ -100,7 +100,7 @@ export default function Contact() {
               fullWidth
               placeholder="제목"
               inputProps={{
-                autocomplete: "off",
+                autoComplete: "off",
               }}
             />
             <TextField
@@ -114,7 +114,7 @@ export default function Contact() {
               fullWidth
               placeholder="내용"
               inputProps={{
-                autocomplete: "off",
+                autoComplete: "off",
               }}
             />
             <Button

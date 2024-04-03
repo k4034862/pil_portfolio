@@ -202,20 +202,20 @@ function AppAppBar({ mode, toggleColorMode }) {
                       toggleColorMode={toggleColorMode}
                     />
                   </Box>
+                  <MenuItem onClick={() => scrollToSection("home")}>
+                    HOME
+                  </MenuItem>
                   <MenuItem onClick={() => scrollToSection("skill")}>
-                    Skill
+                    SKILL
                   </MenuItem>
                   <MenuItem onClick={() => scrollToSection("project")}>
-                    Project
+                    PROJECT
                   </MenuItem>
                   <MenuItem onClick={() => scrollToSection("education")}>
-                    Education
+                    EDUCATION
                   </MenuItem>
-                  <MenuItem onClick={() => scrollToSection("pricing")}>
-                    Pricing
-                  </MenuItem>
-                  <MenuItem onClick={() => scrollToSection("faq")}>
-                    FAQ
+                  <MenuItem onClick={() => scrollToSection("contact")}>
+                    CONTACT
                   </MenuItem>
                   {/* <Divider /> */}
                   {/* <MenuItem>

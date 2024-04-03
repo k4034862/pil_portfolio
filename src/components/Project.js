@@ -197,7 +197,14 @@ export default function Project() {
       </Box>
       <Grid container spacing={2}>
         {userTestimonials.map((testimonial, index) => (
-          <Grid item xs={12} sm={6} md={4} key={index} sx={{ display: "flex" }}>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            key={testimonial.name}
+            sx={{ display: "flex" }}
+          >
             <Card
               sx={{
                 display: "flex",
@@ -210,7 +217,7 @@ export default function Project() {
               <CardContent>
                 {testimonial.testimonial.split("\n").map((line, index) => {
                   return (
-                    <div>
+                    <div key={index}>
                       <Typography variant="body2" color="text.secondary">
                         {line}
                       </Typography>

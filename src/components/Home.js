@@ -65,7 +65,7 @@ export default function Home() {
               aria-label="Enter your email address"
               placeholder="Your email address"
               inputProps={{
-                autocomplete: "off",
+                autoComplete: "off",
                 ariaLabel: "Enter your email address",
               }}
             />
