@@ -43,12 +43,11 @@ export default function Home() {
             }}
           >
             <Typography component="span" variant="h1">
-              Web PortFolio
+              WebApp PortFolio
             </Typography>
           </Typography>
           <Typography variant="body1" textAlign="center" color="text.secondary">
-            {/* 안녕하세요. 반갑습니다. 저는 김동필입니다. <br />웹 개발 , 하드웨어
-            , 통신을 다룬 경험이 있습니다. */}
+            안녕하세요. 반갑습니다. <br />
           </Typography>
           {/* <Stack
             direction={{ xs: "column", sm: "row" }}

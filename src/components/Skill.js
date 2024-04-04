@@ -126,9 +126,13 @@ export default function Skill() {
                   theme.palette.mode === "light"
                     ? items[selectedItemIndex].imageLight
                     : items[selectedItemIndex].imageDark,
-                backgroundSize: "cover",
-                backgroundPosition: "center",
                 minHeight: 280,
+                m: "auto",
+                width: "100%",
+                height: "100%",
+                backgroundSize: "contain", // 이미지를 요소에 맞게 설정
+                backgroundRepeat: "no-repeat", // 이미지 반복 없음
+                backgroundPosition: "center", // 이미지를 중앙에 정렬
               }}
             />
             <Box sx={{ px: 2, pb: 2 }}>

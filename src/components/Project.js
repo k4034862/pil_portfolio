@@ -72,15 +72,6 @@ const userTestimonials = [
     link: `${process.env.PUBLIC_URL}/project/daeg_project.pdf`,
   },
   {
-    avatar: <Avatar alt="대력 IOT펌웨어" src="/static/images/avatar/6.jpg" />,
-    name: "대력 IOT펌웨어",
-    testimonial:
-      "내용 : 하드웨어 개발 \n " +
-      "참여기간: (2021.04 - 2021.07)3개월\n" +
-      "담당 업무: 하드웨어 개발 및 설계 ",
-    link: `${process.env.PUBLIC_URL}/project/dr_project.pdf`,
-  },
-  {
     avatar: (
       <Avatar alt="바이탈린 IOT펌웨어" src="/static/images/avatar/6.jpg" />
     ),
@@ -91,6 +82,16 @@ const userTestimonials = [
       "담당 업무: 하드웨어 개발 및 설계 ",
     link: `${process.env.PUBLIC_URL}/project/by_project.pdf`,
   },
+  {
+    avatar: <Avatar alt="대력 IOT펌웨어" src="/static/images/avatar/6.jpg" />,
+    name: "대력 IOT펌웨어",
+    testimonial:
+      "내용 : 하드웨어 개발 \n " +
+      "참여기간: (2021.04 - 2021.07)3개월\n" +
+      "담당 업무: 하드웨어 개발 및 설계 ",
+    link: `${process.env.PUBLIC_URL}/project/dr_project.pdf`,
+  },
+
   {
     avatar: (
       <Avatar
@@ -137,26 +138,6 @@ const userTestimonials = [
     link: `${process.env.PUBLIC_URL}/project/sunghong_project.pdf`,
   },
 ];
-
-// const whiteLogos = [
-//   "https://assets-global.website-files.com/61ed56ae9da9fd7e0ef0a967/6560628e8573c43893fe0ace_Sydney-white.svg",
-//   "https://assets-global.website-files.com/61ed56ae9da9fd7e0ef0a967/655f4d520d0517ae8e8ddf13_Bern-white.svg",
-//   "https://assets-global.website-files.com/61ed56ae9da9fd7e0ef0a967/655f46794c159024c1af6d44_Montreal-white.svg",
-//   "https://assets-global.website-files.com/61ed56ae9da9fd7e0ef0a967/61f12e891fa22f89efd7477a_TerraLight.svg",
-//   "https://assets-global.website-files.com/61ed56ae9da9fd7e0ef0a967/6560a09d1f6337b1dfed14ab_colorado-white.svg",
-//   "https://assets-global.website-files.com/61ed56ae9da9fd7e0ef0a967/655f5caa77bf7d69fb78792e_Ankara-white.svg",
-//   "../static/images/logo2.png",
-// ];
-
-// const darkLogos = [
-//   "https://assets-global.website-files.com/61ed56ae9da9fd7e0ef0a967/6560628889c3bdf1129952dc_Sydney-black.svg",
-//   "https://assets-global.website-files.com/61ed56ae9da9fd7e0ef0a967/655f4d4d8b829a89976a419c_Bern-black.svg",
-//   "https://assets-global.website-files.com/61ed56ae9da9fd7e0ef0a967/655f467502f091ccb929529d_Montreal-black.svg",
-//   "https://assets-global.website-files.com/61ed56ae9da9fd7e0ef0a967/61f12e911fa22f2203d7514c_TerraDark.svg",
-//   "https://assets-global.website-files.com/61ed56ae9da9fd7e0ef0a967/6560a0990f3717787fd49245_colorado-black.svg",
-//   "https://assets-global.website-files.com/61ed56ae9da9fd7e0ef0a967/655f5ca4e548b0deb1041c33_Ankara-black.svg",
-//   "../static/images/logo2.png",
-// ];
 
 const logoStyle = {
   width: "64px",

@@ -197,10 +197,10 @@ function AppAppBar({ mode, toggleColorMode }) {
                       flexGrow: 1,
                     }}
                   >
-                    <ToggleColorMode
+                    {/* <ToggleColorMode
                       mode={mode}
                       toggleColorMode={toggleColorMode}
-                    />
+                    /> */}
                   </Box>
                   <MenuItem onClick={() => scrollToSection("home")}>
                     HOME
