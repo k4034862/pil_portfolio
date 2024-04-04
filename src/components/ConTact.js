@@ -9,8 +9,6 @@ import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
 
 import FacebookIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import TwitterIcon from "@mui/icons-material/X";
 import PhoneIcon from "@mui/icons-material/Phone";
 import EmailIcon from "@mui/icons-material/Email";
 import HomeIcon from "@mui/icons-material/Home";
@@ -180,13 +178,13 @@ export default function Contact() {
         >
           <IconButton
             color="inherit"
-            href="https://github.com/mui"
+            href="https://github.com/k4034862"
             aria-label="GitHub"
             sx={{ alignSelf: "center" }}
           >
             <FacebookIcon />
           </IconButton>
-          <IconButton
+          {/* <IconButton
             color="inherit"
             href="https://twitter.com/MaterialUI"
             aria-label="X"
@@ -201,7 +199,7 @@ export default function Contact() {
             sx={{ alignSelf: "center" }}
           >
             <LinkedInIcon />
-          </IconButton>
+          </IconButton> */}
         </Stack>
       </Box>
     </Container>
