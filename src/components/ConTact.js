@@ -65,7 +65,22 @@ export default function Contact() {
               Subscribe to our newsletter for weekly updates and promotions.
             </Typography> */}
           <Box sx={{ display: "flex", flexDirection: "column" }}>
-            <TextField
+            <Typography variant="body2" fontWeight={600}>
+              <PhoneIcon></PhoneIcon> 010-4114-8117
+            </Typography>
+            <br />
+            <br />
+            <Typography variant="body2" fontWeight={600}>
+              <HomeIcon></HomeIcon> 부산광역시 중구 대영로 240
+            </Typography>
+            <br />
+            <br />
+            <Typography variant="body2" fontWeight={600}>
+              <EmailIcon></EmailIcon> k4034862@naver.com
+            </Typography>
+            <br />
+            <br />
+            {/* <TextField
               id="outlined-basic"
               hiddenLabel
               size="small"
@@ -124,10 +139,10 @@ export default function Contact() {
               }}
             >
               메일 보내기
-            </Button>
+            </Button> */}
           </Box>
         </Box>
-        <Box
+        {/* <Box
           sx={{
             display: { xs: "none", sm: "flex" },
             flexDirection: "column",
@@ -143,7 +158,7 @@ export default function Contact() {
           <Typography variant="body2" fontWeight={600}>
             <EmailIcon></EmailIcon> k4034862@naver.com
           </Typography>
-        </Box>
+        </Box> */}
       </Box>
       <Box
         sx={{
