@@ -2,6 +2,7 @@ import * as React from "react";
 import { alpha } from "@mui/material";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
+import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 import Link from "@mui/material/Link";
 import Stack from "@mui/material/Stack";
@@ -47,7 +48,7 @@ export default function Home() {
             </Typography>
           </Typography>
           <Typography variant="body1" textAlign="center" color="text.secondary">
-            안녕하세요. 반갑습니다. <br />
+            안녕하세요. 5년차 개발자 김동필입니다. <br />
           </Typography>
           {/* <Stack
             direction={{ xs: "column", sm: "row" }}
@@ -85,29 +86,57 @@ export default function Home() {
           </Typography> */}
         </Stack>
         <Box
-          id="image"
           sx={(theme) => ({
             mt: { xs: 8, sm: 10 },
-            alignSelf: "center",
-            height: { xs: 200, sm: 700 },
+            // alignSelf: "center",
+            height: "100%",
             width: "100%",
-            backgroundImage:
-              theme.palette.mode === "light"
-                ? 'url("/static/images/templates/templates-images/hero-light.png")'
-                : 'url("/static/images/templates/templates-images/hero-dark.png")',
-            backgroundSize: "cover",
+            p: 2,
+            display: "flex",
+            // justifyContent: "space-between",
+            alignItems: "center",
+
             borderRadius: "10px",
             outline: "1px solid",
-            outlineColor:
-              theme.palette.mode === "light"
-                ? alpha("#BFCCD9", 0.5)
-                : alpha("#9CCCFC", 0.1),
-            boxShadow:
-              theme.palette.mode === "light"
-                ? `0 0 12px 8px ${alpha("#9CCCFC", 0.2)}`
-                : `0 0 24px 12px ${alpha("#033363", 0.2)}`,
+            outlineColor: alpha("#9CCCFC", 0.1),
           })}
-        />
+        >
+          <Grid
+            container
+            spacing={{ xs: 2, md: 3 }}
+            columns={{ xs: 4, sm: 8, md: 12 }}
+          >
+            <Grid item xs={4} sm={4} md={6}>
+              <Box>
+                <img
+                  src={`${process.env.PUBLIC_URL}/KakaoTalk_20241105_164529425.jpg`}
+                  style={{ width: "100%", height: "100%" }}
+                />
+              </Box>
+            </Grid>
+            <Grid item xs={2} sm={4} md={4}>
+              <Box>
+                <Typography variant="body1" color="text.secondary">
+                  <span style={{ color: "#1E90FF" }}>Contact.</span>
+                  <br />
+                  <br />
+                  <span style={{ color: "white" }}>Email.</span>{" "}
+                  k4034862@naver.com
+                  <br />
+                  <br />
+                  <span style={{ color: "white" }}>Phone.</span> 010-4114-8117
+                  <br />
+                  <br />
+                  <span style={{ color: "#3FE0D0" }}>Chanel.</span>
+                  <br />
+                  <br />
+                  <span style={{ color: "white" }}>Github.</span>{" "}
+                  https://github.com/k4034862
+                </Typography>
+              </Box>
+            </Grid>
+          </Grid>
+        </Box>
       </Container>
     </Box>
   );

@@ -106,14 +106,14 @@ export default function Education() {
               gutterBottom
               sx={{ maxWidth: { sm: "100%", md: "70%" } }}
             >
-              - (주)UHS (2020-06 ~ 20-09)
+              - (주)UHS (2020-06 ~ 21-09)
             </Typography>
             <Typography
               variant="body2"
               gutterBottom
               sx={{ maxWidth: { sm: "100%", md: "70%" } }}
             >
-              - 사명 변경전: (주)하이텍정보 사명 변경후: (주)블루넥스 (2020-09
+              - 사명 변경전: (주)하이텍정보 사명 변경후: (주)블루넥스 (2021-09
               ~)
             </Typography>
           </AccordionDetails>

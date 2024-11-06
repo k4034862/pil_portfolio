@@ -163,7 +163,7 @@ export default function Project() {
     >
       <Box
         sx={{
-          width: { sm: "100%", md: "60%" },
+          width: { sm: "100%", md: "100%" },
           textAlign: { sm: "left", md: "center" },
         }}
       >
@@ -171,9 +171,15 @@ export default function Project() {
           PROJECT
         </Typography>
         <Typography variant="body1" color="text.secondary">
-          주로 프로젝트에 개발을 담당하였고 MES , WERP , IOT , 통신프로그램 등을
-          개발하였습니다.
+          주로 프로젝트에서 프론트 엔드 , 백엔드 개발을 동시에 작업을 하였으며
+          MES , WERP , SI , IOT , 통신프로그램 등을 개발하였고
           <br />
+          MES 프로젝트에서 PM 역할인 설계 및 일정관리 문서관리등과 웹
+          프론트엔드(REACT) 개발 , 백엔드(C#) 개발을 한적이 있습니다.
+          <br />
+          산업안전에 관련된 웹,앱을 개발할 때에는 사용자 요구사항을 듣고
+          화면설계 , DB설계를 하였고 웹 프론트엔드(REACT) 개발 , 백엔드(C#)
+          개발을 하였습니다.
         </Typography>
       </Box>
       <Grid container spacing={2}>
